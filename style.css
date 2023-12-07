@@ -1,0 +1,843 @@
+
+html {  
+	font-size:77%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+}.page {
+  min-width: 375px;
+  background-color: #ffffff;
+}
+.page .header {
+  padding: 0rem 14rem 0rem 15.2rem;
+  height: 9rem;
+  box-shadow: 1.1rem 1.1rem 2.5rem rgba(9, 7, 37, 0.06);
+}
+.page .header .header-fill {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.page .header .header-fill .image {
+  width: 22rem;
+  height: 1.9rem;
+}
+.page .header .header-fill .menu-image {
+  height: 50%;
+  display: none;
+}
+.page .header .header-fill .menu {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page .header .header-fill .menu button{
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  color: #1b1a1a;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page .header .header-fill .menu .get-template-button {
+  width: 15.5rem;
+  height: 50%;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 0.04rem;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b1a1a;
+  border-radius: 1.4rem;
+}
+.page .main-banner {
+  margin-bottom: 6.1rem;
+  height: 72rem;
+  display: flex;
+  align-items: center;
+  background-color: #ece7e4;
+}
+.page .main-banner .banner-info {  
+  width: calc(100% - 72rem);
+  display: flex;
+  justify-content: center;
+}
+.page .main-banner .banner-info .text-block {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.page .main-banner .banner-info .text-block .title {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #645c55;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page .main-banner .banner-info .text-block .slogan {
+  margin-bottom: 1.8rem;
+  max-width: 41.7rem;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #1b1a1a;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.page .main-banner .banner-info .text-block .text {
+  margin-bottom: 3rem;
+  max-width: 50.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #403e3b;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.page .main-banner .banner-info .text-block .read-more-button {
+  width: 13.6rem;
+  height: 4.6rem;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+.page .main-banner .banner-info .text-block .read-more-button .read-more {
+  width: 9.2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04rem;
+  color: #1b1a1a;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page .main-banner .image {
+  width: 72rem;
+  height: 72rem;
+}
+.page .our-firm {
+  margin-bottom: 1.9rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #403e3b;
+  font-family: Poppins, 'Source Sans Pro';
+  text-align: center;
+}
+.page .firm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.page .firm .info-block {
+  margin-bottom: 16.1rem;
+  width: 52.4rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #403e3b;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page .firm .info-block .text {
+  margin-bottom: 3.4rem;
+}
+.page .firm .info-block .text-bttmn {
+  margin-bottom: 3.8rem;
+}
+.page .firm .info-block .stephen-collier {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  color: #1b1a1a;
+}
+.page .firm .info-block .senior-partner {
+  font-size: 1.4rem;
+  line-height: 1;
+  color: #645c55;
+}
+.page .RH-block {
+  margin-bottom: 10rem;
+  height: 60rem;
+  position: relative;
+  background-image: url("./assets/IMAGE_11.jpg");
+  background-size: cover;
+}
+.page .RH-block .text-block {
+  width: 26.8rem;
+  height: 6.8rem;
+  position: absolute;
+  right: 13rem;
+  top: 26.6rem;  
+  font-weight: 400;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page .RH-block .text-block .reeding-house {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #403e3b;
+  white-space: nowrap;
+}
+.page .RH-block .text-block .text {
+  max-width: 26.8rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #645c55;
+}
+.page .process {
+  margin-bottom: 11rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.page .process .title {
+  margin-bottom: 4.7rem;
+  display: flex;
+  flex-direction: column;  
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page .process .title .our-process {
+  margin-bottom: 1.3rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #645c55;
+}
+.page .process .title .how-we-do-what-we-do {
+  font-size: 3.9rem;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #1b1a1a;
+}
+.page .process .points {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.page .process .points .point {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.page .process .points .point .image {
+  margin-bottom: 1.5rem;
+  width: 11.7rem;
+  height: 10.2rem;
+}
+.page .process .points .point .info {  
+  font-family: Poppins, 'Source Sans Pro';
+  text-align: center;
+  font-weight: 400;
+}
+.page .process .points .point .info .point-title {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: #403e3b;
+}
+.page .process .points .point .info .text {
+  width: 28rem;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #645c55;
+}
+.page .SS-block {
+  height: 60rem;
+  position: relative;
+  background-image: url("./assets/IMAGE-tss.jpg");
+  background-size: cover;
+}
+.page .SS-block .text-block {
+  width: 26.8rem;
+  position: absolute;
+  left: 17rem;
+  top: 26.6rem;  
+  font-family: Poppins, 'Source Sans Pro';
+  font-weight: 400;
+}
+.page .SS-block .text-block .title {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #403e3b;
+}
+.page .SS-block .text-block .text {
+  max-width: 26.8rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #645c55;
+}
+.page .projects {
+  margin-bottom: 9.6rem;
+  height: 91.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.page .projects .info-block {
+  width: 76%;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.page .projects .info-block .text-block {
+  margin-bottom: 4.2rem;
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins, 'Source Sans Pro';
+  font-weight: 400;
+}
+.page .projects .info-block .text-block .title {
+  margin-bottom: 1.5rem;
+  font-size: 3.9rem;
+  line-height: 1.1;
+  color: #1b1a1a;
+}
+.page .projects .info-block .text-block .text {
+  width: 58.1rem;
+  font-size: 2.4rem;
+  line-height: 1.25;
+  color: #645c55;
+}
+.page .projects .info-block .prj-blocks {
+  margin-bottom: 4rem;
+  width: 100%;
+  height: 46rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page .projects .info-block .prj-blocks .prj-block {
+  width: 37rem;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.4rem;
+  flex-shrink: 0;
+}
+.page .projects .info-block .prj-blocks .prj-block .image {
+  width: 37.5rem;
+  height: 45.6rem;
+  position: absolute;
+  object-fit: cover;
+}
+.page .projects .info-block .prj-blocks .prj-block .prj-title {
+  width: 19.9rem;
+  height: 4.8rem;
+  position: absolute;
+  left: 4.2rem;
+  top: 4.2rem;  
+  font-family: Poppins, 'Source Sans Pro';  
+  font-weight: 800;
+}
+.page .projects .info-block .prj-blocks .prj-block .prj-title .title {
+  width: 19.9rem;
+  height: 3rem;
+  left: 0;
+  top: 1.8rem;
+  font-size: 2.3rem;
+  line-height: 1.3;
+  color: #403e3b;
+}
+.page .projects .info-block .prj-blocks .prj-block .prj-title .city {
+  width: 8.7rem;
+  height: 2rem;
+  left: 0;
+  top: 0;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #645c55;
+}
+.page .projects .info-block .prj-blocks .prj-block .read-more {
+  width: 13.3rem;
+  height: 4.6rem;
+  position: absolute;
+  left: 4.8rem;
+  top: 37.2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04rem;
+  color: #ffffff;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b1a1a;
+  border-radius: 1.4rem; 
+  font-family: Poppins, 'Source Sans Pro';
+  cursor: pointer;
+  border: none;
+}
+.page .projects .info-block .view {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.page .projects .info-block .view button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04rem;
+  color: #1b1a1a;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page .team {
+  margin-bottom: 9rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 0rem 13rem 0rem 18rem;
+}
+.page .team .text-block {
+  margin-right: 5rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.page .team .text-block .title {
+  margin-bottom: 1.4rem;
+  font-size: 3.2rem;
+  line-height: 1.2;
+  color: #403e3b;
+}
+.page .team .text-block .text {
+  margin-bottom: 3rem;
+  max-width: 35.5rem;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #645c55;
+  flex-shrink: 0;
+}
+.page .team .text-block .see-team {
+  margin-left: 0.5rem;
+  width: 12.1rem;
+  height: 4.6rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 0.04rem;
+  font-weight: 400;
+  font-family: Poppins, 'Source Sans Pro';
+  color: #1b1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+.page .team .t-members {
+  margin-top: 1.2rem;
+  min-width: 80rem;
+  display: flex;
+}
+.page .team .t-members .members-group {
+  display: flex;
+  flex-direction: column;
+}
+.page .team .t-members .members-group .member {
+  display: flex;
+  margin: 0rem 16rem 6rem 0rem;
+}
+.page .team .t-members .members-group .member .image {
+  margin-right: 3rem;
+  width: 8.4rem;
+  height: 8.4rem;
+  object-fit: cover;
+  border-radius: 6.4rem;
+}
+.page .team .t-members .members-group .member .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Poppins, 'Source Sans Pro';
+  font-weight: 400;
+}
+.page .team .t-members .members-group .member .info .name {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  color: #1b1a1a;
+}
+.page .team .t-members .members-group .member .info .post {
+  font-size: 1.4rem;
+  line-height: 1;
+  color: #645c55;
+}
+.page .GIT-banner {
+  height: 31.4rem;
+  background-color: #cec4bc;
+}
+.page .GIT-banner .info {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.page .GIT-banner .info .text-block {
+  font-family: Poppins, 'Source Sans Pro';
+  font-weight: 400;
+}
+.page .GIT-banner .info .text-block .get-in-touch {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #645c55;
+}
+.page .GIT-banner .info .text-block .think {
+  width: 56.8rem;
+  font-size: 4rem;
+  line-height: 1.05;
+  color: #1b1a1a;
+}
+.page .GIT-banner .info .git-button {
+  width: 14.5rem;
+  height: 5.1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04rem;
+  color: #1b1a1a;
+  font-family: Poppins, 'Source Sans Pro';
+  border-radius: 1.4rem;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+.page .footer {
+  background-color: #f7f7f7;
+  padding-right: 10rem;
+  height: 20.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.page .footer .info-block {
+  width: 60rem;
+  display: flex;
+  flex-direction: column;
+}
+.page .footer .info-block .image {
+  margin-bottom: 2rem;
+  width: 25.6rem;
+}
+.page .footer .info-block .text {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #645c55;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page .footer .link {
+  border: none;
+  background-size: cover;
+  cursor: pointer;
+  margin-top: 5.7rem;
+  display: flex;
+  column-gap: 2rem;
+  width: 2.4rem;
+  height: 2.5rem;
+}
+
+@media (max-width: 2560px) { html { font-size: 77%; }}
+@media (max-width: 1920px) { html { font-size: 67%; }}
+@media (max-width: 1660px) { html { font-size: 59%; }}
+@media (max-width: 1480px) { html { font-size: 55%; }}
+@media (max-width: 1370px) { html { font-size: 50%; }}
+@media (max-width: 1250px) { html { font-size: 45%; }}
+@media (max-width: 1120px) {
+  .page .header .header-fill .menu {
+    display: none;;
+  }
+  .page .header .header-fill .menu-image {
+    display: block;
+  }
+  .page .main-banner .image {
+    display: none;
+  }
+  .page .main-banner {
+    height: 50rem;
+  }
+  .page .main-banner .banner-info {
+    width: 100%;
+  }
+  .page .main-banner .banner-info .text-block {
+    flex-direction: row;
+  }
+  .page .main-banner .banner-info .text-block .text {
+    max-width: 30rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+  }
+  .page .main-banner .banner-info .text-block .read-more-button {
+    display: none;
+  }
+  .page .projects {
+    height: 85rem;
+  }
+  .page .projects .info-block .prj-blocks {
+    margin-bottom: 0rem;
+  }
+  .page .projects .info-block .prj-blocks .prj-block {
+    flex-shrink: 1;
+    justify-content: center;
+  }
+  .page .projects .info-block .prj-blocks .prj-block .prj-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    left: 0;
+  }
+  .page .projects .info-block .prj-blocks .prj-block .read-more {
+    width: 100%;
+    height: 9rem;
+    border-radius: 0;
+    left: 0;
+    font-size: 2rem;
+  }
+  .page .projects .info-block .view {
+    display: none;
+  }
+  .page .team {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  }
+  .page .team .text-block {
+    margin-right: 0rem;
+    text-align: center;
+  }
+  .page .team .text-block .text {
+    margin-bottom: 0rem;
+  }
+  .page .team .text-block .see-team {
+    display: none;
+  }
+  .page .team .t-members {
+  min-width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+  .page .team .t-members .members-group .member {
+    display: flex;
+    margin: 4rem 3rem 0rem 3rem;
+  }
+  .page .GIT-banner .info .git-button {
+    font-size: 2rem;
+  }
+  .page .footer .link {
+    margin-top: 0rem;
+    margin-right: 2rem;
+    column-gap: 2rem;
+    width: 4.8rem;
+    height: 5rem;
+  }
+}
+@media (max-width: 1000px) {
+  .page .RH-block {
+    display: none;
+  }
+  .page .process {    
+    background-color: #f7f7f7;
+    padding: 5rem 0rem 9.6rem 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (max-width: 850px) {
+  .page .process .points{
+    flex-direction: column;
+  }
+  .page .process .points .point {
+    flex-direction: row;
+    margin-top: 5rem;
+  }
+  .page .process .points .point .image {
+    margin-right: 5rem;
+  }
+}
+@media (max-width: 780px) { html { font-size: 40%; }}
+@media (max-width: 660px) {
+  .page .header {
+    padding: 0rem 0rem 0rem 0rem;
+  }
+  .page .header .header-fill {
+    justify-content: space-around;  
+  }
+  .page .main-banner {
+    height: 48rem;
+  }
+  .page .main-banner .banner-info {
+    width: 100%;
+  }
+  .page .main-banner .banner-info .text-block {
+    flex-direction: column;
+  }  
+  .page .main-banner .banner-info .text-block .text {
+    max-width: 50rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+  }
+  .page .main-banner .banner-info .text-block .title {
+    margin-bottom: 0rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: #645c55;
+    font-family: Poppins, 'Source Sans Pro';
+  }
+  .page .main-banner .banner-info .text-block .slogan {
+    margin-bottom: 3rem;
+    max-width: 41.7rem;
+    font-size: 5.4rem;
+  }
+  .page .projects {
+    height: 60rem;
+  }
+  .page .projects .info-block .text-block .title {    
+    font-size: 2.9rem;
+  }
+  .page .projects .info-block .text-block .text {    
+    font-size: 2rem;
+  }
+  .page .projects .info-block .prj-blocks {
+    height: 25rem;
+  }
+  .page .projects .info-block .prj-blocks .prj-block .prj-title .title {
+    font-size: 1.8rem;
+  }
+  .page .projects .info-block .prj-blocks .prj-block .prj-title .city {
+    font-size: 1.1rem;
+  }
+  .page .projects .info-block .prj-blocks .prj-block .read-more {
+    height: 5rem;  
+    top: 20rem;
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 600px) {
+  .page .team {  
+    padding: 0rem 0rem 0rem 0rem;
+  }
+  .page .team .t-members {
+    min-width: 100%;
+    justify-content: center;
+  }
+  .page .team .t-members .members-group .member .info .name {
+    font-size: 1.5rem;
+  }
+  .page .team .t-members .members-group .member .info .post {
+    font-size: 1.2rem;
+  }
+  .page .footer .link {
+    margin-top: 0rem;
+    margin-right: 2rem;
+    column-gap: 2rem;
+    width: 4rem;
+    height: 4rem;
+  }
+  .page .GIT-banner .info .text-block .get-in-touch {
+  font-size: 0.8rem;
+  }
+  .page .GIT-banner .info .text-block .think {
+    width: 40rem;
+    margin-right: 3rem;
+    font-size: 3rem;
+  }
+  .page .footer {
+    padding-right: 10rem;
+  }
+  .page .footer .info-block {
+    width: 40rem;
+  }
+}
+@media (max-width: 550px) {
+  .page .main-banner .banner-info .text-block .slogan {
+    margin-bottom: 3rem;
+    max-width: 40rem;
+    font-size: 4.4rem;
+  }
+  .page .main-banner .banner-info .text-block .text {
+    max-width: 40rem;
+  }
+  .page .firm .info-block {
+    width: 40rem;
+    margin-bottom: 10.1rem;
+  }
+  .page .process {    
+    background-color: #ece7e4;
+    padding: 5rem 0rem 9.6rem 0rem;
+    margin-bottom: 0rem;
+  }
+  .page .process .title .how-we-do-what-we-do {
+    font-size: 3rem;
+  }
+  .page .SS-block {
+    display: none;
+  }
+    .page .projects {
+    height: 50rem;
+  }
+  .page .projects .info-block .text-block .title {    
+    font-size: 2.4rem;
+  }
+  .page .projects .info-block .text-block .text {    
+    font-size: 1.6rem;
+  }
+  .page .projects .info-block .prj-blocks {
+    height: 20rem;
+  }
+  .page .projects .info-block .prj-blocks .prj-block .prj-title .title {
+    font-size: 1.3rem;
+  }
+  .page .projects .info-block .prj-blocks .prj-block .prj-title .city {
+    font-size: 0.9rem;
+  }
+  .page .projects .info-block .prj-blocks .prj-block .read-more {
+    height: 5rem;  
+    top: 15rem;
+    font-size: 1.5rem;
+  }
+}
